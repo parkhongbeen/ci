@@ -1,8 +1,8 @@
-[![codecov](https://codecov.io/gh/parkhongbeen/ci/branch/master/graph/badge.svg)](https://codecov.io/gh/parkhongbeen/ci)
-
 ## CI
 
-> 채우기
+> 모든 개발이 끝난 이후에 코드 품질을 관리하느 ㄴ고전적 방식의 단점을 해소하기위해 나타난 개념, 말 그대로 개발을 하면서 '코드에 대한 통합'을 '지속적'으로 진행함으로써 품질을 유지하자는 것이다.
+
+[![codecov](https://codecov.io/gh/parkhongbeen/ci/branch/master/graph/badge.svg)](https://codecov.io/gh/parkhongbeen/ci)
 
 ### Django기본 테스트
 
@@ -64,9 +64,13 @@ addopts = --nomigrations --reuse-db
 > pytest를 사용해서 codecov.io에 업로드 할 리포트를 만들어주는 라이브러리
 
 ```
-poetry add codecov pytest-cov
-pytest --cov app
+$ poetry add codecov pytest-cov
+
+# pytest, pytest-django, coverage를 사용해서 codecov에 올릴 리포트 생성
+$ pytest --cov app
+
+# codecov에 생성된 리포트를 전송
 CODECOV_TOKEN=<codecov.io Token> codecov
-CODECOV_TOKEN=9546cc9c-3c3a-49fe-8d0b-c4d77f076e37 codecov
+
 ```
 
