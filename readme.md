@@ -2,7 +2,7 @@
 
 > 모든 개발이 끝난 이후에 코드 품질을 관리하느 ㄴ고전적 방식의 단점을 해소하기위해 나타난 개념, 말 그대로 개발을 하면서 '코드에 대한 통합'을 '지속적'으로 진행함으로써 품질을 유지하자는 것이다.
 
-[![codecov](https://codecov.io/gh/parkhongbeen/ci/branch/master/graph/badge.svg)](https://codecov.io/gh/parkhongbeen/ci)
+[![codecov](https://codecov.io/gh/parkhongbeen/ci/branch/master/graph/badge.svg)](https://codecov.io/gh/parkhongbeen/ci)![CI](https://github.com/WPS-12th/CI/workflows/CI/badge.svg)
 
 ### Django기본 테스트
 
