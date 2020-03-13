@@ -6,8 +6,9 @@ omit =
     app/manage.py
     app/config/asgi.py
     app/config/wsgi.py
+    app/*/migrations/*
 
-# __str__함수는 converage report에서 제
+# __str__함수는 converage report에서 제외
 [report]
 exclude_lines =
     def __str__
