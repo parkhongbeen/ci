@@ -42,7 +42,7 @@ jobs:
       run: ~/.poetry/bin/poetry install
     
     - name: pytest-cov
-      run: ~/.pertry/bin/poetry run pytest --cov app
+      run: ~/.poetry/bin/poetry run pytest --cov app
       
     - name: codecov
       run: ~/.poetry/bin/poetry run codecov
